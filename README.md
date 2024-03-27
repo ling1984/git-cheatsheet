@@ -8,6 +8,8 @@ Some of the most useful git commands, made for people who are new to git.
 - [Pushing](#push)
 - [Merging](#merge)
 - [Conflicts](#conflict)
+- [Pull](#pull)
+- [Reset](#reset)
 - [Common Problems](#common)
 
 ## Setting up <a name="setup"></a>
@@ -122,7 +124,7 @@ If the file is not "git readable" i.e. changes are shown in bits not lines of co
 
 Otherwise, github should provide a way that shows both changes and lets you delete what you want.
 
-## Pull
+## Pull <a name="pull"></a>
 ```
 git pull
 ```
@@ -137,6 +139,11 @@ Does not change your current branch.
 ```
 git pull = git fetch + git merge
 ```
+## Reset <a name="reset"></a>
+```
+git reset --hard HEAD
+```
+Resets you back to the commit on the current branch.
 
 ## Common problems <a name="common"></a>
 
